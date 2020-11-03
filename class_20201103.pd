@@ -1,0 +1,11 @@
+#N canvas 538 93 905 733 12;
+#X obj 86 146 readsf~;
+#X obj 87 208 dac~;
+#X msg 133 103 open sound.wav;
+#X msg 32 96 0;
+#X msg 80 97 1;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
